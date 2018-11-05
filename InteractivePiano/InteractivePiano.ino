@@ -4,7 +4,7 @@
 CapacitiveSensor   cs_2_3 = CapacitiveSensor(2,3);        // 10M resistor between pins 2 & 3, pin 2 is sensor pin
 CapacitiveSensor   cs_2_4 = CapacitiveSensor(2,4);        // 10M resistor between pins 2 & 4, pin 2 is sensor pin
 CapacitiveSensor   cs_2_5 = CapacitiveSensor(2,5);        // 10M resistor between pins 2 & 5, pin 2 is sensor pin
-void setup() {'
+void setup() {
   // Identify the piezobuzzer pin as output
   pinMode(12, OUTPUT);
   cs_2_3.set_CS_AutocaL_Millis(0xFFFFFFFF);     // turn off autocalibrate on channel 1 - just as an example
@@ -25,7 +25,6 @@ void loop() {
   Serial.print(total2); // print sensor output 2
   Serial.print("\n Three\n");
   Serial.print(total3); // print sensor output 3
-  delay(1000);
   
   // If-statements for playing a tone on the piezobuzzer according to sensor input
   if (total1 > 20) 
