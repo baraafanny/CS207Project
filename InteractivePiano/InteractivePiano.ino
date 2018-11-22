@@ -28,35 +28,35 @@ void loop() {
   long total7 =  cs_2_9.capacitiveSensor(30);
   
   Serial.print("\n One \n");
-  Serial.print(total1); // print sensor output 1
+  //Serial.print(total1); // print sensor output 1
   Serial.print("\n Two \n");
   Serial.print(total2); // print sensor output 2
   Serial.print("\n Three\n");
-  Serial.print(total3); // print sensor output 3
+  //Serial.print(total3); // print sensor output 3
   Serial.print("\n Four \n");
-  Serial.print(total4); // print sensor output 1
+  //Serial.print(total4); // print sensor output 1
   Serial.print("\n Five \n");
-  Serial.print(total5); // print sensor output 2
+  //Serial.print(total5); // print sensor output 2
   Serial.print("\n Six \n");
-  Serial.print(total6); // print sensor output 3
+  //Serial.print(total6); // print sensor output 3
   Serial.print("\n Seveen \n");
-  Serial.print(total7); // print sensor output 3
+  //Serial.print(total7); // print sensor output 3
   
   
   // If-statements for playing a tone on the piezobuzzer according to the sensors input
-  if (total1 > 50) 
+  if (total1 > 20) 
     tone(speaker,523);
   if (total2 > 50) 
     tone(speaker,587);
-  if (total3 > 50) 
+  if (total3 > 20) 
     tone(speaker,659);
-  if (total4 > 150)
+  if (total4 > 20)
     tone(speaker,698);
-  if (total5 > 150)
+  if (total5 > 20)
     tone(speaker,784);
-  if (total6 > 150)
+  if (total6 > 20)
     tone(speaker,880);
-  if (total7 > 150)
+  if (total7 > 20)
     tone(speaker,988);
   
    // When there is no/not enough sensor input turn off the sound
