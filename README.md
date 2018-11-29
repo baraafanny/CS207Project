@@ -12,7 +12,9 @@ Here is how the project looks. Different tiles of the piano are represented by t
 Here is a list of the content in the repository
 * /InteractivePiano - In this folder you can find the code for this project.
   * InteractivePiano.ino 
+* /images - Folder where all images for this README is stored.
 * /README.md - Second content is the README.
+
 
 # Requirements and Materials
 For this project we needed to use a library to be able to input human touch.
