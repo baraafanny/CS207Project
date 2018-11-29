@@ -42,7 +42,7 @@ The code is farily simple and the different tresholds can be changed to another 
 
 More detailed guide:
 * Download contents of repository
-* Open .ino file in Arduino, in folder InteractivePiano
+* Open .ino file in Arduino IDE, can be found in folder InteractivePiano
 * Assemble the circuit(See previous section)
 * Upload code to Arduino
 * Start playing your piano!
