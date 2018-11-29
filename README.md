@@ -6,6 +6,7 @@ The project involves building an Interactive Piano with different materials that
 Motivation for this project came when the authors friend showed some related work on YouTube. When watching the videos the author could see some possible improvements and fun ideas to add to these different projects. 
 
 Picture of project here
+![Project Picture](./images/Piano.jpg "Project Picture")
 
 Here is how the project looks. Different tiles of the piano are represented by two Redbull cans, two 2$ coins and three gummy bears. 
 
