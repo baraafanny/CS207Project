@@ -28,39 +28,45 @@ void loop() {
   long total7 =  cs_2_9.capacitiveSensor(30);
   
   Serial.print("\n One \n");
-  //Serial.print(total1); // print sensor output 1
+  Serial.print(total1); // print sensor output 1
   Serial.print("\n Two \n");
   Serial.print(total2); // print sensor output 2
   Serial.print("\n Three\n");
-  //Serial.print(total3); // print sensor output 3
+  Serial.print(total3); // print sensor output 3
   Serial.print("\n Four \n");
-  //Serial.print(total4); // print sensor output 1
+  Serial.print(total4); // print sensor output 1
   Serial.print("\n Five \n");
-  //Serial.print(total5); // print sensor output 2
+  Serial.print(total5); // print sensor output 2
   Serial.print("\n Six \n");
-  //Serial.print(total6); // print sensor output 3
+  Serial.print(total6); // print sensor output 3
   Serial.print("\n Seveen \n");
-  //Serial.print(total7); // print sensor output 3
+  Serial.print(total7); // print sensor output 3
   
   
   // If-statements for playing a tone on the piezobuzzer according to the sensors input
-  if (total1 > 20) 
+  // Green gummybear input
+  if (total1 > 60) 
     tone(speaker,523);
-  if (total2 > 50) 
+  // Pop can input
+  if (total2 > 80) 
     tone(speaker,587);
-  if (total3 > 20) 
+  // Red gummy bear input
+  if (total3 > 60) 
     tone(speaker,659);
-  if (total4 > 20)
+  // Yellow gummy bear input
+  if (total4 > 60)
     tone(speaker,698);
-  if (total5 > 20)
+  if (total5 > 60)
     tone(speaker,784);
-  if (total6 > 20)
+  // Coin input
+  if (total6 > 70)
     tone(speaker,880);
-  if (total7 > 20)
+  
+  if (total7 > 60)
     tone(speaker,988);
   
    // When there is no/not enough sensor input turn off the sound
-   if (total1<=150  &  total2<=150  &  total3<=150 & total4<=150  &  total5<=150  &  total6<=150 &  total7<=150)
+   if (total1<=60  &  total2<=80  &  total3<=60 & total4<=60  &  total5<=60  &  total6<=70 &  total7<=60)
     noTone(speaker);
   
    delay(10); 
