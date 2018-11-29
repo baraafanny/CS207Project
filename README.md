@@ -1,5 +1,4 @@
-# CS207Project
-This repository will be for the project in CS207 - Building Interactive Gadgets.
+# CS207Project - Interactive Piano
 This repository was made for the project in CS207 - Building Interactive Gadgets. 
 This README will give instructions to how one might set-up an Interactive Piano with an Arduino Uno. 
 
