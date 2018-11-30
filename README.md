@@ -8,7 +8,7 @@ Motivation for this project came when the authors friend showed some related wor
 ![Project Picture](./images/PianoWithButton.jpg "Project Picture")
 ***Image 1:** Image of the Interactive Piano*
 
-In *Image 1* you can see how the project looks. Different tiles of the piano are represented by two Redbull cans, two 2$ coins and three gummy bears. 
+In ***Image 1*** you can see how the project looks. Different tiles of the piano are represented by two Redbull cans, two 2$ coins and three gummy bears. 
 
 # Repository Content
 Here is a list of the content in the repository
