@@ -37,7 +37,7 @@ The circuit is fairly easy to build.
 Below you can see the schematics of my build:
 
 ![Project Picture](./images/CircuitDesign.png "Project Picture")
-***Image 2:** Here is a image of the circuit done with Fritzing*
+***Image 2:** Image of the circuit done with Fritzing*
 
 # Usage
 First the user needs to download the contents of this GitHub repository. After that follow the Building Intructions above to assemble the circuit. 
