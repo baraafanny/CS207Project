@@ -27,7 +27,10 @@ Below you can see a list of the required materials:
 * 7st 1M Ω resistors
 * Piezo buzzer
 * 2 Jumper wires for piezo buzzer
-* 16 Jumper wires for the rest of the circuit
+* Button
+* 1st 10K Ω resistor
+* 2 Jumper wires for button
+* 17 Jumper wires for the rest of the circuit
 * The materials that you will attach to the touch sensors, in this case pop cans, coins and gummy bears
 
 # Building Instructions
