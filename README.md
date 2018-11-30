@@ -36,7 +36,7 @@ Here you can find instructions on how to build the circuit.
 The circuit is fairly easy to build. 
 Below you can see the schematics of my build:
 
-![Project Picture](./images/CircuitDesign.jpg "Project Picture")
+![Project Picture](./images/CircuitDesign.png "Project Picture")
 ***Image 2:** Here is a image of the circuit done with Fritzing*
 
 # Usage
