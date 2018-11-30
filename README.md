@@ -5,7 +5,7 @@ This README will give instructions to how one might set-up an Interactive Piano 
 The project involves building an Interactive Piano with different materials that you can find in your everyday home. 
 Motivation for this project came when the authors friend showed some related work on YouTube. When watching the videos the author could see some possible improvements and fun ideas to add to these different projects. 
 
-![Project Picture](./images/Piano.jpg "Project Picture")
+![Project Picture](./images/PianoWithButton.jpg "Project Picture")
 ***Image 1:** Image of the Interactive Piano*
 
 In *Image 1* you can see how the project looks. Different tiles of the piano are represented by two Redbull cans, two 2$ coins and three gummy bears. 
